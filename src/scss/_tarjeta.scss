@@ -1,0 +1,14 @@
+.tarjeta{
+    width: 250px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    gap: 10px;
+
+    > img{
+        width: 25px;
+    }
+}
