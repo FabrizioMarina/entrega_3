@@ -1,0 +1,49 @@
+@import "reset";
+@import "header";
+@import "footer";
+
+.navbar{
+    background-color: rgb(108, 162, 108);
+    padding: 10px 20px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+
+}
+
+.menu{
+    display: flex;
+    padding: 10px 20px;
+    // margin-left: 30px;
+    list-style-type: none;
+}
+
+ul > li > a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.main-nosotros{
+    padding: 20px;
+}
+
+.nosotros{
+    
+    padding: 30px;
+    max-width: 800px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin: 10px auto;
+    display: grid;
+    background-color: rgb(108, 162, 108);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+
