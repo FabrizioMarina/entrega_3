@@ -1,22 +1,11 @@
 @import "reset";
 @import "header";
 @import "footer";
-
-.navbar{
-    background-color: rgb(108, 162, 108);
-    padding: 10px 20px;
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 20px;
-    
-
-
-}
+@import "navbar";
 
 .menu{
     display: flex;
     padding: 10px 20px;
-    // margin-left: 30px;
     list-style-type: none;
 }
 
@@ -31,6 +20,8 @@ ul > li > a{
 .main-nosotros{
     padding: 20px;
 }
+
+
 
 .nosotros{
     
@@ -47,3 +38,40 @@ ul > li > a{
 
 }
 
+.productos-info{
+    margin: 20px;
+    width: 250px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 20px;
+    box-shadow: 10px 10px 5px 0px black;
+    text-align: center;
+    > img{
+        width: 100%;
+    }
+    > .btn{
+        background-color: rgb(108, 162, 108);
+        border: 0;
+        padding: 10px;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        list-style-type: none;
+        &:hover{
+            background-color: greenyellow;
+            color:#000000;
+        }
+        > a{
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+            &:hover{
+                color: #000000;
+            }
+
+        }
+    }
+}

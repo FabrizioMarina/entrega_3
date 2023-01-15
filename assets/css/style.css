@@ -60,3 +60,40 @@ ul > li > a {
   color: white;
   font-size: 20px;
 }
+
+.productos-info {
+  margin: 20px;
+  width: 250px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 20px;
+  box-shadow: 10px 10px 5px 0px black;
+  text-align: center;
+}
+.productos-info > img {
+  width: 100%;
+}
+.productos-info > .btn {
+  background-color: rgb(108, 162, 108);
+  border: 0;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.productos-info > .btn:hover {
+  background-color: greenyellow;
+  color: #000000;
+}
+.productos-info > .btn > a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+.productos-info > .btn > a:hover {
+  color: #000000;
+}
