@@ -2,7 +2,7 @@
 @import "header";
 @import "footer";
 @import "navbar";
-
+@import "formulario-consulta";
 .menu{
     display: flex;
     padding: 10px 20px;
@@ -61,15 +61,15 @@ ul > li > a{
         text-decoration: none;
         list-style-type: none;
         &:hover{
-            background-color: greenyellow;
-            color:#000000;
+            background-color: blue;
+           
         }
         > a{
             text-decoration: none;
             list-style-type: none;
             color: white;
             &:hover{
-                color: #000000;
+                color: white;
             }
 
         }

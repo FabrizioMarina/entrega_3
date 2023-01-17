@@ -31,6 +31,88 @@
   font-size: 20px;
 }
 
+.formulario-consulta {
+  padding: 30px;
+  margin-bottom: 30px;
+  max-width: 800px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  margin: 10px auto;
+  display: grid;
+  background-color: rgb(108, 162, 108);
+  border-radius: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 70px;
+  grid-template-areas: "titulo     titulo" "nombre    nombre" "apellido apellido" "tel        tel   " "consulta   consulta" "btn          btn";
+}
+
+.formulario-consulta h2:nth-child(1) {
+  grid-area: titulo;
+  color: white;
+}
+
+.formulario-consulta label:nth-child(2) {
+  grid-area: nombre;
+}
+
+.formulario-consulta label:nth-child(3) {
+  grid-area: apellido;
+}
+
+.formulario-consulta label:nth-child(4) {
+  grid-area: tel;
+}
+
+.formulario-consulta label:nth-child(5) {
+  grid-area: consulta;
+}
+
+.formulario-consulta button:nth-child(6) {
+  grid-area: btn;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 15px;
+  margin: 10px;
+  margin-top: 15px;
+}
+.formulario-consulta button:nth-child(6) > a {
+  text-decoration: none;
+  color: #000000;
+}
+.formulario-consulta button:nth-child(6) > a > a:hover {
+  background-color: blue;
+  color: white;
+}
+
+.formulario-consulta label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+.formulario-consulta > label > input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+.formulario-consulta > label > input {
+  color: white;
+}
+
+.formulario-consulta > label > textarea {
+  color: white;
+}
+
+.formulario-consulta > label > textarea {
+  background-color: transparent;
+  border: 0;
+  border: 2px solid white;
+  outline: none;
+  height: 200px;
+}
+
 .menu {
   display: flex;
   padding: 10px 20px;
@@ -86,8 +168,7 @@ ul > li > a {
   list-style-type: none;
 }
 .productos-info > .btn:hover {
-  background-color: greenyellow;
-  color: #000000;
+  background-color: blue;
 }
 .productos-info > .btn > a {
   text-decoration: none;
@@ -95,5 +176,5 @@ ul > li > a {
   color: white;
 }
 .productos-info > .btn > a:hover {
-  color: #000000;
+  color: white;
 }
