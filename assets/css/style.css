@@ -16,7 +16,7 @@
 
 .info-footer {
   padding: 20px;
-  background-color: rgb(108, 162, 108);
+  background-color: #69a56e;
   display: flex;
   font-size: 20px;
   text-decoration: none;
@@ -24,7 +24,7 @@
 }
 
 .navbar {
-  background-color: rgb(108, 162, 108);
+  background-color:  #69a56e;
   padding: 10px 20px;
   list-style-type: none;
   text-decoration: none;
@@ -35,10 +35,10 @@
   padding: 30px;
   margin-bottom: 30px;
   max-width: 800px;
-  box-shadow: 5px 5px 15px 5px black;
+  box-shadow: 5px 5px 15px 5px #000;
   margin: 10px auto;
   display: grid;
-  background-color: rgb(108, 162, 108);
+  background-color:  #69a56e;
   border-radius: 10px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 70px;
@@ -47,7 +47,7 @@
 
 .formulario-consulta h2:nth-child(1) {
   grid-area: titulo;
-  color: white;
+  color: #f5f7f7;
 }
 
 .formulario-consulta label:nth-child(2) {
@@ -69,7 +69,7 @@
 .formulario-consulta button:nth-child(6) {
   grid-area: btn;
   border-radius: 5px;
-  background-color: white;
+  background-color: #f5f7f7;
   font-size: 15px;
   margin: 10px;
   margin-top: 15px;
@@ -80,35 +80,35 @@
 }
 .formulario-consulta button:nth-child(6) > a > a:hover {
   background-color: blue;
-  color: white;
+  color: #f5f7f7;
 }
 
 .formulario-consulta label {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  color: white;
+  color: #f5f7f7;
 }
 
 .formulario-consulta > label > input {
   background-color: transparent;
   border: 0;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #f5f7f7;
   outline: none;
 }
 
 .formulario-consulta > label > input {
-  color: white;
+  color: #f5f7f7;
 }
 
 .formulario-consulta > label > textarea {
-  color: white;
+  color: #f5f7f7;
 }
 
 .formulario-consulta > label > textarea {
   background-color: transparent;
   border: 0;
-  border: 2px solid white;
+  border: 2px solid #f5f7f7;
   outline: none;
   height: 200px;
 }
@@ -121,7 +121,7 @@
 
 ul > li > a {
   padding: 20px;
-  color: white;
+  color: #f5f7f7;
   text-decoration: none;
   list-style-type: none;
 }
@@ -133,13 +133,13 @@ ul > li > a {
 .nosotros {
   padding: 30px;
   max-width: 800px;
-  box-shadow: 5px 5px 15px 5px black;
+  box-shadow: 5px 5px 15px 5px #000;
   margin: 10px auto;
   display: grid;
-  background-color: rgb(108, 162, 108);
+  background-color:  #69a56e;
   border-radius: 10px;
   text-align: center;
-  color: white;
+  color: #f5f7f7;
   font-size: 20px;
 }
 
@@ -152,17 +152,17 @@ ul > li > a {
   padding: 10px;
   border-radius: 5px;
   gap: 20px;
-  box-shadow: 10px 10px 5px 0px black;
+  box-shadow: 10px 10px 5px 0px #000;
   text-align: center;
 }
 .productos-info > img {
   width: 100%;
 }
 .productos-info > .btn {
-  background-color: rgb(108, 162, 108);
+  background-color:  #69a56e;
   border: 0;
   padding: 10px;
-  color: white;
+  color: #f5f7f7;
   border-radius: 5px;
   text-decoration: none;
   list-style-type: none;
@@ -173,10 +173,10 @@ ul > li > a {
 .productos-info > .btn > a {
   text-decoration: none;
   list-style-type: none;
-  color: white;
+  color: #f5f7f7;
 }
 .productos-info > .btn > a:hover {
-  color: white;
+  color: #f5f7f7;
 }
 
 .cards {
@@ -193,12 +193,12 @@ ul > li > a {
 
 @media (min-width: 768px) {
   .fa-caret-down {
-    color: white;
-    background-color: white;
+    color: #f5f7f7;
+    background-color: #f5f7f7;
   }
 }
 @media (max-width: 1200px) {
   .navbar .fa-caret-down {
-    background-color: white;
+    background-color: #f5f7f7;
   }
 }
