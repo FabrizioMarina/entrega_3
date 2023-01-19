@@ -1,6 +1,5 @@
 @import "reset";
 @import "header";
-@import "footer";
 @import "navbar";
 @import "formulario-consulta";
 @import "variables";
@@ -105,4 +104,8 @@ ul > li > a{
             background-color: white;
         }
     }
+}
+
+.info-footer{
+    @include pie
 }
